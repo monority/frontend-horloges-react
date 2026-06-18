@@ -22,10 +22,11 @@
     "lighthouse": "lighthouse http://localhost:4173 --output html --output-path ./lighthouse-report.html --chrome-flags=\"--headless\""
   },
   "overrides": {
-    "protobufjs": "7.5.8"
+    "@grpc/grpc-js": "1.14.4",
+    "protobufjs": "7.6.4"
   },
   "dependencies": {
-    "firebase": "^12.12.0",
+    "firebase": "^12.15.0",
     "framer-motion": "^12.38.0",
     "lenis": "^1.3.21",
     "react": "^19.2.5",
